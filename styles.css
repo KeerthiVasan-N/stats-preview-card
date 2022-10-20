@@ -32,6 +32,9 @@ body{
     align-items: center;
     background-color: rgb(27, 25, 56);
 }
+.p{
+    margin:3rem auto;
+}
 .pic{
 width: 90%;
 background-color: aqua;

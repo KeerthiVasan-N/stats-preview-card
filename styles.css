@@ -1,0 +1,134 @@
+:root{
+    font-size: 62.5%;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+strong{
+    color: rgb(149,94,188);
+}
+.pw{
+    font-size: 1em;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+   color: hsla(0, 0%, 100%, 0.75);
+}
+body{
+    font-family: 'Inter';
+    background-color: rgb(9, 11, 26);
+    color: white;
+   font-size: 1.5rem;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 4rem;
+    order: -1;
+    align-items: center;
+    background-color: rgb(27, 25, 56);
+}
+.pic{
+width: 90%;
+background-color: aqua;
+background-image: url(images/image-header-desktop.jpg);
+max-height: 17rem;
+width: 17rem;
+display: inline-block;
+}
+
+ul{
+list-style: none;
+margin-bottom: 0;
+}
+.bold{
+    margin: 0;
+    font-weight: 700;
+}
+.small{
+    font-family: 'Lexend Deca';
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    margin-bottom: 0.8rem;
+    color:  hsla(0, 0%, 100%, 0.6);
+}
+.itm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.itm >*{
+align-self: flex-start;
+}
+.list{
+    padding: 2rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+}
+ img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width:700px) {
+    .word{
+        text-align: left;
+    }
+    .list{
+        flex-direction:row;
+       gap:2rem;
+    }
+}
+.main{
+   width: 40rem;
+   display: flex;
+   flex-direction: column-reverse;
+   margin: 2rem auto;
+   border-radius: 12px;
+   overflow: hidden;
+
+}
+.main:first-child{
+    order: 1;
+}
+
+@media screen and (min-width:700px) {
+.main{
+    flex-direction: row;
+   margin:5rem 7rem;
+   overflow: visible;
+   border-radius: 12px;
+
+}
+img{
+  border-bottom-right-radius:12px;
+  border-top-right-radius:12px ;
+}
+.two{
+    border-bottom-left-radius:12px;
+    border-top-left-radius:12px ;
+  
+}
+}
+
+.word{
+    text-align: center;
+}
+.pic{
+    object-fit: cover;
+}
+@media screen and (min-width:700px) {
+.word{
+    text-align: left;
+}
+
+}

@@ -85,6 +85,7 @@ align-self: flex-start;
     }
     .main{
         margin-right:4rem;
+        max-width:34rem;
     }
 }
 @media screen and (min-width:700px) {

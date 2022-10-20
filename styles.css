@@ -81,7 +81,10 @@ align-self: flex-start;
 }
 @media screen and (max-width:700px) {
     body{
-        padding:4rem 8rem;
+        padding:4rem 6rem;
+    }
+    .main{
+        margin-right:4rem;
     }
 }
 @media screen and (min-width:700px) {
